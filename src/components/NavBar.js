@@ -1,18 +1,21 @@
 import { Link } from "react-router-dom";
 
-
+import "./styles/NavBar.css"
 
 
 
 function NavBar(){
 
     return (
-        <div className="footerDiv">
-            <h1><Link to={"./"}>Home</Link></h1>
-            <h1><Link to={"/Get_Customers"}>Customers</Link></h1>
-            <h1><Link to={"/Update/"}>Update</Link></h1>
-            <h1><Link to={""}>Delete</Link></h1>
-            <h1><Link to={""}>Search</Link></h1>
+        <div className="nav">
+            
+
+            <li><Link to={"./"}>Home</Link></li>
+            <li><Link to={"/Get_Customers"}>Customers</Link></li>
+            <li><Link to={"/Update/"}>Update</Link></li>
+            <li><Link to={""}>Delete</Link></li>
+            <li><Link to={""}>Search</Link></li>
+           
         </div>
     )
 

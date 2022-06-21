@@ -12,6 +12,7 @@ function CustomerDetails() {
             .then(setCustomer)
     }, [id])
 
+    
 
 
 
@@ -31,6 +32,7 @@ function CustomerDetails() {
                 Email:{customer.email}<br></br>
                 Address:{customer.address["address"]}<br></br>
                 District:{customer.address["district"]}<br></br>
+            
             </ol>
 
             <button id="back" > <Link to={"../Get_Customers"}>BACK</Link> </button>

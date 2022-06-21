@@ -1,0 +1,15 @@
+body{
+    background-color: #d5b084;
+}
+.Customer{
+    background-color: whitesmoke;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    border: solid;
+}
+.customer_detail{
+    border: solid red;
+    grid-template-rows: 1fr 1fr ;
+
+}
