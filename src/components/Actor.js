@@ -20,7 +20,7 @@ function Actor() {
 	return (
 
 		<div className="Actor">
-			<h1> Fetch data from API </h1> {
+			{
 				actors.map((actor) => (
 					<ol key={actor.actor_id} >
 						Actor ID: {actor.actor_id}<br></br>
