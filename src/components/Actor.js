@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import "./styles/Actor.css"
 
 
 function Actor() {

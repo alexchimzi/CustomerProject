@@ -16,14 +16,14 @@ import NavBar from './components/NavBar';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <Router>
-        <NavBar/>
+        <NavBar />
         <Routes>
-        <Route path="/" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="Get_Actors" element={<Actor />} />
             <Route path="Get_Customers" element={<Customer />} />
-            <Route path="Customer/:id" element={<CustomerDetails/>} />
-            <Route path="Update/:id" element={<UpdatePage/>} />
-            <Route path="Update" element={<UpdatePage/>} />
+            <Route path="Customer/:id" element={<CustomerDetails />} />
+            <Route path="Update/:id" element={<UpdatePage />} />
+            <Route path="Update" element={<UpdatePage />} />
 
         </Routes>
 

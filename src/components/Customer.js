@@ -25,13 +25,14 @@ function Customer(){
 				{
 					customers.map((customer) => (
 						<Link to = {"/Customer/"+customer.customer_id} key={customer.customer_id} >
-							<div className='customer_detail'>
-							Customer ID: {customer.customer_id}<br></br>
+							<div className='customer_detail' id={"customerCard"+customer.customer_id} >
+							<p className='info'>Customer ID: {customer.customer_id}<br></br>
 							First Name: {customer.first_name}<br></br>
 							Last name:{customer.last_name}<br></br><br></br>
 							
 							{/* City:{customer.address.country["country"]}<br></br> */}
 							{/* Country:{customer.address.city.country["country"]}<br></br> */}
+							</p>
 							</div>
 						</Link>
 					))
